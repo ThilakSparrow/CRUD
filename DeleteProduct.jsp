@@ -16,5 +16,4 @@
 	p.executeUpdate();
 	response.sendRedirect("HomePage.jsp");
 	
-
 %>
