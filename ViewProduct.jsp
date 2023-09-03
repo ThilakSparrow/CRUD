@@ -1,7 +1,6 @@
 <%@include file="Header.html" %>
 <%@page import="java.sql.*" %>
 
-
 <%
 	
 	int id = Integer.parseInt(request.getParameter("id"));	
