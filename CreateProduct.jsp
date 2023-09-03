@@ -23,7 +23,7 @@
         ps.setString(4, Model);
         ps.setDouble(5, price);
         ps.setString(6, desc);
-        s
+        
         int rowsAffected = ps.executeUpdate();
         if (rowsAffected > 0) {
             out.println("Product added successfully!");
