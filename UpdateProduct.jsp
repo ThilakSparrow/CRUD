@@ -9,6 +9,7 @@
 	Double price = Double.parseDouble(request.getParameter("price"));
 %>    
 
+
 <%
 	Class.forName("com.mysql.cj.jdbc.Driver");
 	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/product", "root", "#Thilak@MySQL-25");
