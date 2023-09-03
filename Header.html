@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .navbar {
+            overflow: hidden;
+            display: flex;
+            justify-content: center; 
+        }
+
+        .navbar a {
+			font-size: 15px;
+            display: block;
+            color: #333;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            position: relative;
+        }
+
+        .navbar a::after {
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 2px;
+            background-color: #ff007f; 
+            transition: width 0.3s ease-in-out;
+            transform: translateX(-50%);
+        }
+
+        .navbar a:hover::after {
+            width: 100%;
+        }
+        
+        .footer {
+            background-color: #ff007f; 
+            text-align: center;
+            padding: 10px 0;
+            color: white; 
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <b><a href="#">Home</a></b>
+    <b><a href="#">View Products</a></b>
+    <b><a href="#">About Us</a></b>
+</div>
