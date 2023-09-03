@@ -1,5 +1,5 @@
-	<%@include file="Header.html" %>
-	<%@page import="java.sql.*" %>
+<%@include file="Header.html" %>
+<%@page import="java.sql.*" %>
 
 	<h1>All Products Lists</h1>
 
